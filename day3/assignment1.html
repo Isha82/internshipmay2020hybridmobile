@@ -1,0 +1,22 @@
+<script src="../jquery-3.5.1.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function(){
+        $("#square").click(function(){
+            var n=parseInt($("#num").val());
+            var f=n*n;
+            $("#result").val(f);
+        });
+
+        $("#cube").click(function(){
+            var n=parseInt($("#num").val());
+            var f=n*n*n;
+            $("#result").val(f);
+        });
+       
+    });
+</script>
+
+Number<input type="text" id="num" size="20"> <br>
+result<input type="text" id="result" size="20"> <br>
+<input type="button" value="Square" id="square">
+<input type="button" value="Cube" id="cube">
