@@ -1,0 +1,36 @@
+
+h1{
+    text-align: center;
+    background-color:blue;
+    color:black;
+    height:50px;
+    
+    font-size: 80px;
+    
+}
+#form
+{
+text-align: justify;
+font-size: 25px;
+padding-left: 420px;
+padding-top: 80px;
+}
+#empid, #name, #des, #salary
+{
+    border-color: skyblue;
+    font-size: 20px;
+}
+#save, #search
+{
+    height:35px;
+    width:70px;
+    font-size: 18px;
+    color:blue;
+}
+#head{
+    text-align: center;
+    background-color:blue;
+    color:white;
+    height:50px;
+    font-size: 40px;
+}
